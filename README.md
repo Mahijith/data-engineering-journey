@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Engineering Journey 🚀
 
 Daily practice problems to become an expert data engineer — progressively harder problems across all core DE categories.
@@ -50,3 +51,6 @@ data-engineering-journey/
 ```
 git commit -m "Day X: [category] — [problem title]"
 ```
+=======
+# data-engineering-journey
+>>>>>>> f35798b5d11736b8379a7087fd66426b3af57e16
