@@ -15,7 +15,7 @@ Daily practice problems to become an expert data engineer — progressively hard
 | 3 | Data Modeling | Star Schema design | Beginner | ✅ |
 | 4 | SQL | Star Schema queries | Intermediate | ✅ |
 | 5 | ETL | Data quality checks pipeline | Intermediate | ✅ |
-
+| 6 | Airflow | Multi-step nightly sales pipeline | Intermediate | ✅ |
 ## Repository Structure
 
 ```
