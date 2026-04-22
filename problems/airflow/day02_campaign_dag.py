@@ -1,7 +1,7 @@
 # Day 2: Airflow DAG — Daily Campaign Report
 # Requires Apache Airflow to be installed and running
 
-from airflow import DAG
+from airflow import DAG 
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
@@ -17,7 +17,7 @@ with DAG(
     dag_id='daily_campaign_report',
     default_args=default_args,
     start_date=datetime(2024, 1, 1),
-    schedule_interval='0 7 * * *',  # Every day at 7:00 AM
+    schedule='0 7 * * *',  # Every day at 7:00 AM
     catchup=False                    # Don't backfill past runs
 ) as dag:
 
