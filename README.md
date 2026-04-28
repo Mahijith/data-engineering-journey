@@ -16,6 +16,7 @@ Daily practice problems to become an expert data engineer — progressively hard
 | 4 | SQL | Star Schema queries | Intermediate | ✅ |
 | 5 | ETL | Data quality checks pipeline | Intermediate | ✅ |
 | 6 | Airflow | Multi-step nightly sales pipeline | Intermediate | ✅ |
+| 7 | Spark | Trip Analysis | Intermediate | ✅ |
 ## Repository Structure
 
 ```
@@ -27,7 +28,7 @@ data-engineering-journey/
     ├── etl/             # ETL pipeline problems
     ├── airflow/         # Workflow orchestration problems
     ├── data_modeling/   # Star schema & warehouse design
-    ├── spark/           # Apache Spark problems (coming soon)
+    ├── spark/           # Apache Spark problems
     ├── kafka/           # Streaming problems (coming soon)
     ├── cloud/           # Cloud platform problems (coming soon)
     └── system_design/   # End-to-end architecture (coming soon)
